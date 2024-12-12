@@ -1,5 +1,5 @@
-$DriveLetter = "D"  # Changed this to D for the USB drive
-$ShutdownAction = "test"  # Set this to "shutdown", "restart", or "test"
+$DriveLetter = "Z"  # Changed this to D for the USB drive
+$ShutdownAction = "restart"  # Set this to "shutdown", "restart", or "test"
 
 while ($true) {
     if (!(Test-Path "${DriveLetter}:\")) {
