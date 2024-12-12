@@ -1,4 +1,4 @@
-$DriveLetter = "D"  # Changed this to D for the USB drive
+$DriveLetter = "Z"  # Changed this to D for the USB drive
 $ShutdownAction = "restart"  # Set this to "shutdown", "restart", or "test"
 
 while ($true) {

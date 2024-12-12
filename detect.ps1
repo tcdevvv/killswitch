@@ -1,5 +1,5 @@
-$DriveLetter = "D"  # USB drive letter to check for
-$BatchFilePath = "D:\killswitch\launch.bat"  # Specify the full path to your batch file
+$DriveLetter = "Z"  # USB drive letter to check for
+$BatchFilePath = "Z:\launch.bat"  # Specify the full path to your batch file
 
 while ($true) {
     if (Test-Path "${DriveLetter}:\" ) {
